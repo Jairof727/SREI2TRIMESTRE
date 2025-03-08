@@ -46,8 +46,41 @@ Creamos la base de datos
 Configuramos la configuración EC2 de la base de datos
 ![image](https://github.com/user-attachments/assets/4cbfca71-bd28-4531-bd8f-5fe623c7bd47)
 ![image](https://github.com/user-attachments/assets/7927d1af-5d3f-4271-8fad-500211405f7a)
+![image](https://github.com/user-attachments/assets/a230ad4d-0748-46ac-957b-d9abd87334ee)
+
+Creamos el sistema de archivos
+![image](https://github.com/user-attachments/assets/ff6a8574-384d-4177-8f69-880b5e490df2)
+
+Agregamos una regla en el grupo de seguridad
+![image](https://github.com/user-attachments/assets/52845a47-c0d4-4877-9294-a4418f28e3c3)
+
+Asociamos el EFS 
+![image](https://github.com/user-attachments/assets/22d2791a-3d91-4cb8-843f-e492b046a743)
+
+Vamos al siguiente directorio
+![image](https://github.com/user-attachments/assets/e0fa79b9-6155-438e-9de3-b6eb7e9bf364)
+
+Instalamos cleinte mysql
+![image](https://github.com/user-attachments/assets/4898e3af-b951-42a9-aa1d-315d18e3dea8)
+
+Iniciamos sesion en la base de datos
+![image](https://github.com/user-attachments/assets/b06b2d6d-015b-41f7-906f-a84207cf2e77)
+
+Creamos una base de datos
+mysql -u admin -h nombre-dns-rds-wordpress -p 
+
+Instalamos wordpress en la instancia desde la ruta /var/www/html
+![image](https://github.com/user-attachments/assets/de9a94eb-8ae5-4989-b76b-a0beae0ce6de)
+![image](https://github.com/user-attachments/assets/5ff43039-bf62-411b-9ce7-84f8b30d156b)
+Como podemos ver ya esta instalado
+![image](https://github.com/user-attachments/assets/068081a6-a782-466e-af3c-b9877ee8ab8f)
 
 
+CREATE DATABASE wordpress; 
+CREATE USER 'wordpress_user'@'%' IDENTIFIED BY 'password123'; 
+GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress_user'@'%'; 
+FLUSH PRIVILEGES;
 
-
+Ahora accedemos a wordpress desde el navegador para configurarlo
+![image](https://github.com/user-attachments/assets/c5ede7bd-e261-4a7d-940b-b2a93bb48bfa)
 
