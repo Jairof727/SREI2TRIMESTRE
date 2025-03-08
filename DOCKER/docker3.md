@@ -64,6 +64,9 @@ docker ps
 ![image](https://github.com/user-attachments/assets/399239e1-4fd4-4746-accf-5fdaf65fc360)
 
 # 13. Borra todos los contenedores
-docker rm $(docker ps -a -q)
+docker rm $(docker ps -a -q), el comando deberia ejecutarse pero da un error el cual no encuentro solucion, por tanto he usado un comando que elimina los contenedores detenidos
+
+![image](https://github.com/user-attachments/assets/8ea72279-8f0b-4b36-b2b1-bd9860c8da85)
+
 
 
