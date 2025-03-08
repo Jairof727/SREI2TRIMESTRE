@@ -35,6 +35,18 @@ Y reiniciamos apache:
 Como podemos ver ya tenemos instalado php
 ![image](https://github.com/user-attachments/assets/9f0ffd14-6c07-46f1-95bb-0d7c014b0cc4)
 
+Creamos la base de datos
+![image](https://github.com/user-attachments/assets/2696c458-8fe6-4253-94db-ce1743633a77)
+![image](https://github.com/user-attachments/assets/d0a5f860-ad4f-4ce8-8ac8-f2dcc979daf0)
+![image](https://github.com/user-attachments/assets/3b262058-c5e2-4c15-9060-db878082db1b)
+![image](https://github.com/user-attachments/assets/3c394ff9-3a4b-47d5-a3f5-2c2494280268)
+![image](https://github.com/user-attachments/assets/388f09cd-2ca2-4550-bee3-09c845fbdde6)
+![image](https://github.com/user-attachments/assets/163d8461-2d95-49d0-8692-3cd24c1d4a66)
+
+Configuramos la configuración EC2 de la base de datos
+![image](https://github.com/user-attachments/assets/4cbfca71-bd28-4531-bd8f-5fe623c7bd47)
+![image](https://github.com/user-attachments/assets/7927d1af-5d3f-4271-8fad-500211405f7a)
+
 
 
 
