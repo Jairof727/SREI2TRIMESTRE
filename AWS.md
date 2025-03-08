@@ -77,9 +77,11 @@ Como podemos ver ya esta instalado
 
 
 CREATE DATABASE wordpress; 
-CREATE USER 'wordpress_user'@'%' IDENTIFIED BY 'password123'; 
-GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress_user'@'%'; 
+CREATE USER 'Admin' IDENTIFIED BY '777'; 
+GRANT ALL PRIVILEGES ON wordpress.* TO 'Admin'; 
 FLUSH PRIVILEGES;
+![image](https://github.com/user-attachments/assets/f654dba5-81a1-4972-bb6b-9eeb4f56a3b7)
+
 
 Ahora accedemos a wordpress desde el navegador para configurarlo
 ![image](https://github.com/user-attachments/assets/c5ede7bd-e261-4a7d-940b-b2a93bb48bfa)
