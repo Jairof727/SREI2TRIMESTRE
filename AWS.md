@@ -86,3 +86,34 @@ FLUSH PRIVILEGES;
 Ahora accedemos a wordpress desde el navegador para configurarlo
 ![image](https://github.com/user-attachments/assets/c5ede7bd-e261-4a7d-940b-b2a93bb48bfa)
 
+Entramos con nuestros datos
+![image](https://github.com/user-attachments/assets/e8af0cbd-323e-40b6-a507-e2901378ecf2)
+
+Creamos el archivo de configuracion con sudo nano wp-config.php y copiamos lo que nos indica
+![image](https://github.com/user-attachments/assets/2ae10d6d-4595-41fa-b444-445559436e7c)
+
+Continuamos con la instalacion
+![image](https://github.com/user-attachments/assets/76dbc4db-51ad-4538-8e53-a3b610c7ae0c)
+
+Ya tenemos wordpress en nuestra instancia
+![image](https://github.com/user-attachments/assets/3d8700b5-16cc-4ebc-bf19-85f05a8da64f)
+
+Vamos a conectar EFS
+
+Hacemos una copia de seguridad del directorio wp-content
+![image](https://github.com/user-attachments/assets/0f5c7bab-1852-4e3d-a699-381e43eeae3c)
+
+Y con este comando estara vinculado, ya que anteriormente asociamos el EFS a nuestra instancia.
+![image](https://github.com/user-attachments/assets/1cc1e8ab-8232-4ed6-ba6b-ef9251476a19)
+
+Cambiamos los permisos para que se pueda subir imagenes y archivos al servidor
+![image](https://github.com/user-attachments/assets/37a276ee-8bbc-4830-97b1-150c38f8e46a)
+
+Como podemos comprobar ya podemos subir archivos a wordpress
+![image](https://github.com/user-attachments/assets/c8c79231-f7e4-4acc-ad36-5973fe78fc38)
+
+
+
+
+
+
