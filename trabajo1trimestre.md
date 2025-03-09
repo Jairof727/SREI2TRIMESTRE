@@ -121,6 +121,7 @@ Después de instalarlo añadimos la configuración
 ![image](https://github.com/user-attachments/assets/7c246c98-3247-4a85-af11-04de021c0b4f)
 
 Por último instalamos phpmyadmin
+
 ![image](https://github.com/user-attachments/assets/9f3987d3-05f6-48e4-9733-ee3969ff7bd6)
 
 
