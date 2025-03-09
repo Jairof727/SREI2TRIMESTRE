@@ -79,6 +79,11 @@ Por último recargamos Apache para aplicar los cambios
 
 ![image](https://github.com/user-attachments/assets/548ac85e-0610-42f1-8f9e-ab893f74b984)
 
+Vemos la aplicación funcionando, le cambiamos el texto al mostrado en la imagen
+
+![image](https://github.com/user-attachments/assets/0b572b99-be79-4258-9f82-9956ffadbcce)
+
+
 7. Instalación y configuración de awstats:
 
 ![image](https://github.com/user-attachments/assets/3e58aeb4-4190-4159-a848-7897ac1f513b)
@@ -99,6 +104,11 @@ Para acceder a ellas en el navegador, configuramos un alias en Apache
 Por último reiniciamos apache
 
 ![image](https://github.com/user-attachments/assets/70133a81-27df-4d6a-b41a-66665c2aee47)
+
+Mostramos awstats
+
+![image](https://github.com/user-attachments/assets/3874b90e-789b-4481-8b0a-afafe5989e4c)
+
 
 8. Configuramos un servidor Nginx
 
